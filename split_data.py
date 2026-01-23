@@ -3,6 +3,7 @@ from sklearn.model_selection import StratifiedKFold
 import glob
 import numpy as np
 from pathlib import Path
+import string
 
 PATH_RAW = Path("./data")
 PATH_PROCESSED = Path("./data/group_data")
@@ -20,7 +21,7 @@ stratified_kfold = StratifiedKFold(n_splits=NB_GROUP,shuffle=True,random_state=1
 grp_id = 0
 lst_grp = np.zeros_like(df_labels["diagnostic"])
 for _,grp_idx in stratified_kfold.split(df_labels,df_labels["diagnostic"]):
-    lst_grp[grp_idx] = grp_id
+    lst_grp[grp_idx] = string.ascii_uppercase[grp_id]
     grp_id +=1
 
 df_labels["group_id"] = lst_grp
