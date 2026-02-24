@@ -10,3 +10,5 @@ Numerical exploration and basic manipulation of the images, and an introduction 
 ## Week 3: Git and GitHub
 Getting familiar with the basics of Git and GitHub.
 
+## Week 4: Images and Features
+Exploring approaches to image segmentation and feature extraction.
