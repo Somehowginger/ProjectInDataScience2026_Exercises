@@ -3,7 +3,7 @@ import shutil
 from pathlib import Path
 
 #Define paths to data and the group ID to get the data for
-GROUP_ID = "C"
+GROUP_ID = "L"
 PATH_RAW = Path("./data")
 PATH_PROCESSED = Path("./data/group_data")
 PATH_IMGS = PATH_PROCESSED/"imgs/"
