@@ -12,3 +12,6 @@ Getting familiar with the basics of Git and GitHub.
 
 ## Week 4: Images and Features
 Exploring approaches to image segmentation and feature extraction.
+
+## Week 5: Feature Extraction and Analysis 
+Analyzing and improving previous feature extraction implementations, practicing modular scripting, generating feature CSVs for model training, and performing exploratory feature analysis.
