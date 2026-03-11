@@ -1,3 +1,4 @@
 data/
 .vscode/
 04_Processing/morphology_operations/
+05_Feature_Extraction/__pycache__/
